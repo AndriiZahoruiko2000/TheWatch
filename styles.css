@@ -125,6 +125,10 @@ ul {
   letter-spacing: -2%;
 }
 
+.hero {
+  padding-bottom: 50px;
+}
+
 .hero .container {
   display: flex;
   justify-content: space-between;
@@ -160,16 +164,142 @@ ul {
 }
 
 .hero_btn::after {
-  content:"";
+  content: "";
   position: absolute;
   left: 0;
   bottom: -5px;
-  width: 100%;
+  width: 102px;
   height: 2px;
   background-color: black;
+  left: 50%;
+  transform: translateX(-50%);
 }
-
 
 .hero_img {
   margin-top: 40px;
+}
+
+.about {
+  padding: 50px 0;
+}
+
+.about .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_box {
+  width: 580px;
+  border-radius: 50px;
+  background-color: #f3f3f3;
+  padding: 60px 80px;
+}
+
+.about_title {
+  font-size: 48px;
+  line-height: 0.91;
+  color: #0c0c0c;
+  margin-bottom: 40px;
+}
+
+.about_text {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #0c0c0cb2;
+  margin-bottom: 20px;
+}
+
+.about_description {
+  font-size: 16px;
+  line-height: 1.25;
+  color: #0c0c0cb2;
+  margin-bottom: 40px;
+}
+
+.about_btn {
+  border: none;
+  border-radius: 16px;
+  padding: 15px 38px;
+  font-size: 14px;
+  line-height: 1.28;
+  color: #fbfbfb;
+  background-color: #3350e9;
+}
+
+.catalog {
+  padding: 50px 0;
+}
+
+.catalog_title {
+  font-size: 48px;
+  line-height: 0.91;
+  color: #0c0c0c;
+  padding-bottom: 40px;
+}
+
+.catalog_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+
+.catalog_item {
+  width: 368px;
+  border-radius: 30px;
+  background-color: #0c0c0c0d;
+  padding: 24px 32px;
+}
+
+.catalog_img {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.catalog_description {
+  font-size: 20px;
+  line-height: 1;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+}
+
+.catalog_price {
+  font-size: 14px;
+  line-height: 1.28;
+  color: #0c0c0c80;
+}
+
+.story {
+  padding: 50px;
+}
+
+.story_photo {
+  display: flex;
+  background-image: url(./img/image\ 70.png);
+  background-color: #0c0c0c;
+  padding: 83px 80px;
+  border-radius: 30px;
+}
+
+.story_title {
+  width: 690px;
+  font-size: 48px;
+  line-height: 0.91;
+  color: #fbfbfb;
+  margin-right: 140px;
+}
+
+.story_accent {
+  color: #808080a8;
+}
+
+.story_btn {
+  display: block;
+  align-self: flex-start;
+  /* height: 48px; */
+  font-size: 14px;
+  line-height: 1.28;
+  border: 1px;
+  border-radius: 16px;
+  padding: 15px 44px;
 }
